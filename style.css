@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.gamename {
+    background-color: #081b31;
+    height: 12vmin;
+    color: white;
+    line-height: 12vmin;
+    /*  give same height and same lign-height to bring the text in center */
+}
+
+.choices {
+    display: flex;
+    height: 40vmin;
+    justify-content: center;
+    align-items: center;
+    gap: 5vmin;
+}
+
+.choice {
+    height: 25vmin;
+    width: 25vmin;
+    border-radius: 50%;
+}
+
+img {
+    height: 25vmin;
+    width: 25vmin;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* hover effect */
+.border {
+    border: .2rem solid transparent;
+}
+
+.border:hover {
+    opacity: 0.7;
+    border: .2rem solid black;
+    cursor: pointer;
+}
+
+/* score board */
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vmin;
+    gap: 15vmin;
+}
+
+.user-score,
+.com-score {
+    font-size: 10vmin;
+}
+
+/* massage */
+.msg-container {
+    margin-top: 5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vmin;
+}
+
+.msg {
+    color: white;
+    background-color: #081b31;
+    border-radius: .5rem;
+    height: 6vmin;
+    padding: 2vmin;
+    line-height: 6vmin;
+}
+
+.dark-mode-button {
+    height: 5vmin;
+    width: 20vmin;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 5px 5px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 3vmin;
+}
